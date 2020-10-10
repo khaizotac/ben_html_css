@@ -1,0 +1,103 @@
+body {
+    border: 5px solid #9e1924;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 90px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 4px solid #9e1924;
+    font-family: sans-serif;
+}
+
+main {
+    padding: 10px 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #991c26;
+    margin: 0px;
+}
+
+.cele {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.sup {
+    text-shadow: 1px 1px 3px #dfc744;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 21px;
+}
+
+img {
+    margin-right: 30px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+q {
+    font-style: italic;
+}
+
+.sidebar {
+    padding: 0px 50px;
+    width: 700px;
+}
+
+h3 {
+    border: 0px;
+    color: #060c2e;
+    font-size: 20px;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+a {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.speakers {
+    display: grid;
+    margin-bottom: 25px;
+}
+
+.flex {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+footer {
+    color: white;
+    background: #9e1924;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.lines {
+    size: 2px;
+    color: #931721;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}

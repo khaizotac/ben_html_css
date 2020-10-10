@@ -1,0 +1,100 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#content{
+    margin: 0px 150px 5px 50px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+}
+
+.type_one{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px #df2ab0;
+}
+
+.type_two{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.type_three{
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    text-indent: 20px;
+}
+
+.text{
+    line-height: 20px;
+}
+
+#signature{
+    color: lightblue; 
+    text-decoration: underline;
+}
+
+.special{
+    line-height: 25px;
+    margin-left: 50px;
+    font-style: italic;
+}
+
+.price{
+    margin-left: 60px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.text_header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#note{
+    font-style: italic;
+    text-align: center;
+    color: red;
+    text-decoration: line-through;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.item {
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+    .item {
+        width: 33vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

@@ -1,0 +1,139 @@
+*{margin: 0; padding: 0;}   
+.demo_1{
+    list-style-type: circle;
+    margin-left: 20vw;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 20px;
+    /* visibility: hidden; */
+}
+
+a {
+    text-decoration: none !important;
+    text-transform: capitalize;
+    color: white;
+}
+
+.navigate_bar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.button{
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(219, 15, 117);
+    margin: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(161, 150, 150);
+    padding: 13px 12px;
+}
+
+a:hover{
+    color: rgb(97, 14, 175);
+}
+
+.navigate_bar_2{
+    list-style-type: none;
+    width: fit-content;
+    border: 2px solid;
+    border-radius: 4px;
+    margin: 10px 10px;
+}
+
+#list_3{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+:nth-child(4n + 4){
+    margin-right: 0;
+}
+
+/* :nth-child tricks */
+
+/* li:first-child{
+    margin-left: 0;
+}
+
+li:last-child{
+    margin-right: 0;
+} */
+
+.body_text{
+    width: 95vw;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.body_two{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.component_one{
+    width: 40vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.component_two{
+    width: 60vw;
+    height: 100vh;
+    background-color: rgb(6, 26, 26);
+}
+
+.responsive{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+@media screen and (max-width :960px){
+    .responsive{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(221, 57, 57);
+    }
+}
+@media screen and (max-width :769px){
+    .responsive{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(17, 2, 2);
+    }
+}
+@media screen and (max-width :550px){
+    .responsive{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(226, 32, 145);
+    }
+}
+@media screen and (max-width :320px){
+    .responsive{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(26, 159, 199);
+    }
+}
